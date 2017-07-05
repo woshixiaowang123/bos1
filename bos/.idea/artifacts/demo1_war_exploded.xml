@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="demo1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo1" />
+          <element id="module-output" name="crm" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="module" name="JUnit4" module-name="demo1" />
+          <element id="file-copy" path="$PROJECT_DIR$/crm/web/WEB-INF/lib/hessian-4.0.33.jar" />
+          <element id="library" level="project" name="lib1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

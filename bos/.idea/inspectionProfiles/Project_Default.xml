@@ -1,0 +1,12 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HibernateMappingDatasourceDomInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JpaAttributeMemberSignatureInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JpaAttributeTypeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JpaQlInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ServletWithoutMappingInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="Struts2ModelInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="WebProperties" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
